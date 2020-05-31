@@ -1,0 +1,19 @@
+{
+  "name": "gitlab-webhook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index"
+  },
+  "dependencies": {
+    "express": "4.x",
+    "koa": "^2.12.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^9.0.1",
+    "request": "^2.88.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
