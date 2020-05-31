@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "vuepress build blog",
+    "build": "vuepress build blog && deploy.sh",
     "dev": "vuepress dev blog"
   },
   "author": "",

@@ -14,7 +14,7 @@ cd deploy
 git init 
 git remote add origin git@github.com:guestccc/guestccc.github.io.git
 # rm -rf `ls |egrep -v '(.git)'`
-cp -rf ../../blog/.vuepress/dist/* .
+cp -rf ../blog/.vuepress/dist/* .
 git add .
 git commit -m 'update'
 git push -f origin master
