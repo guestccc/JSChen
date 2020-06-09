@@ -1,0 +1,19 @@
+{
+  "name": "ccc",
+  "version": "1.0.0",
+  "description": "过客（前端）",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vuepress build blog",
+    "dev": "vuepress dev blog"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^1.4.0"
+  },
+  "dependencies": {
+    "@vuepress/plugin-search": "1.3.1"
+  }
+}
